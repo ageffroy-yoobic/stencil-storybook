@@ -43,7 +43,7 @@ export class NavbarYTB {
           <button-ytb shape="round" size="big" color="transparent">
             <ytb-icon type={'bi bi-camera-video'}></ytb-icon>
           </button-ytb>
-          <img-ytb url={'https://yt3.ggpht.com/ytc/AL5GRJW963eXLYQQTSDq7yvw_5OmeVvZbO1lP8RlMKNFYxkcK6dRtfbpiewhNoeRF2bB=s88-c-k-c0x00ffffff-no-rj-mo'}></img-ytb>
+          <img-ytb src={'https://yt3.ggpht.com/ytc/AL5GRJW963eXLYQQTSDq7yvw_5OmeVvZbO1lP8RlMKNFYxkcK6dRtfbpiewhNoeRF2bB=s88-c-k-c0x00ffffff-no-rj-mo'}></img-ytb>
         </div>
       </div>
     );

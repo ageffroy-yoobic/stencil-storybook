@@ -16,7 +16,7 @@ export class SearchBarYTB {
         <p>{this.time}</p>
         <ytb-icon class={'icons-overlay'} type={'bi bi-clock'} style={{ top: '0', right: '0' }}></ytb-icon>
         <ytb-icon class={'icons-overlay'} type={'bi bi-music-note-list'} style={{ top: '25px', right: '0' }}></ytb-icon>
-        <img-ytb url={this.url} role={'ytb-thumbnail'}></img-ytb>
+        <img-ytb src={this.url} role={'ytb-thumbnail'}></img-ytb>
       </div>
     );
   }

@@ -10,9 +10,9 @@ export type TSize = 'small' | 'medium' | 'medium-plus' | 'big';
 })
 export class ButtonYTB {
   @Prop({ reflect: true }) type: string;
-  @Prop({ reflect: true }) shape: TShape;
-  @Prop({ reflect: true }) color: TColor;
-  @Prop({ reflect: true }) size: TSize;
+  @Prop({ reflect: true }) shape: TShape = 'rectangle';
+  @Prop({ reflect: true }) color: TColor = 'black';
+  @Prop({ reflect: true }) size: TSize = 'big';
 
   render() {
     return (

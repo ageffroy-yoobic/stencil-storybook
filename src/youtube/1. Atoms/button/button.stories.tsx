@@ -10,6 +10,7 @@ export default {
 
 export const Button = () => (
   <div style={{ padding: '20px', width: '100%', height: '100%', display: 'flex', flexDirection: 'row' }}>
+    <button-ytb> default</button-ytb>
     <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignContent: 'space-between' }}>
       <button-ytb shape="round" color="black" size="small">
         <p>abc</p>

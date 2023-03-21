@@ -33,7 +33,7 @@ export namespace Components {
     }
     interface ImgYtb {
         "role": string;
-        "url": string;
+        "src": string;
     }
     interface ListCol {
     }
@@ -246,7 +246,7 @@ declare namespace LocalJSX {
     }
     interface ImgYtb {
         "role"?: string;
-        "url"?: string;
+        "src"?: string;
     }
     interface ListCol {
     }

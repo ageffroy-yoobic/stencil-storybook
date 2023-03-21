@@ -18,7 +18,7 @@ export class CommentYTB {
   render() {
     return (
       <div class={'com-container'}>
-        <img-ytb url={this.commentInfos.avatar}></img-ytb>
+        <img-ytb src={this.commentInfos.avatar}></img-ytb>
         <div class={'written-details'}>
           <div class={'author-details'}>
             <txt-ytb bold={'bold'} color="white" style={{ fontSize: '14px' }}>

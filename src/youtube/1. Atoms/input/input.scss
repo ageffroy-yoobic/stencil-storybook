@@ -2,8 +2,6 @@
   font-family: Roboto, Arial, sans-serif;
   display: flex;
   align-items: center;
-  padding-left: 10px;
-  height: 30px;
   transition: width 200ms, background-color 100ms;
 }
 
@@ -17,15 +15,18 @@ input:focus {
 }
 
 :host([type='search']) {
-  max-width: 572px;
-  width: auto;
   height: 40px;
   background-color: #121212;
   color: #888888;
-  border: solid 1px #303030;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
   font-size: 10px;
+  input {
+    padding-left:10px;
+    max-width: 572px;
+    width: auto;
+
+  }
 }
 :host([type='comment']) {
   background-color: transparent;
